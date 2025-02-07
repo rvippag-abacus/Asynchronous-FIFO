@@ -56,7 +56,7 @@ The testbench verifies the functionality of the FIFO module by simulating variou
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Copyright (C) 2020-2025 Abacus Semiconductor Corporation.
 
 ## Contributing
 
