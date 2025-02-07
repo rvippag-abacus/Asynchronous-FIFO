@@ -1,3 +1,32 @@
+///////////////////////////////////////////////////////////////
+//
+// Company: Abacus Semiconductor Corporation
+// Engineer:  <include your name here, list can grow>
+//
+// Copyright (C) 2020-2025 Abacus Semiconductor Corporation
+//
+// This file and all derived works are confidential property of 
+// Abacus Semiconductor Corporation
+// 
+// Create Date:   2025-02-07
+// Design Name:   Asynchronous FIFO
+// Module Name:   tb_fifo.v
+// Project Name:  Asynchronous FIFO
+// Target Device: (FPGA: AMD/Xilinx Virtex UltraScale+) (ASIC: TSMC 16nm)
+// Tool versions: all
+// Description:   The FIFO module is designed to handle data buffering with separate input and output clocks,
+//                making it suitable for asynchronous data transfer for the HRAM smart multi-homed memory
+//
+// Dependencies:  None
+//
+// Revision:   1.01 
+//
+// Additional Comments: This design is universal and can be parallelized
+//
+//
+/////////////////////////////////////////////////////////////
+
+
 `timescale 1ns / 1ps
 `include "fifo.v"
 
