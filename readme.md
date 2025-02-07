@@ -1,5 +1,5 @@
 
-# Pointer FIFO
+# Asynchronous FIFO
 
 This repository contains a Verilog implementation of a pointer-based FIFO (First In, First Out) memory module and its corresponding testbench. The FIFO module is designed to handle data buffering with separate input and output clocks, making it suitable for asynchronous data transfer.
 
