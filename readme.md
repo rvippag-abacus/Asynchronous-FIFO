@@ -39,19 +39,19 @@ The testbench verifies the functionality of the FIFO module by simulating variou
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/pointer_fifo_tb.git
-    cd pointer_fifo_tb
+    git clone https://github.com/rvippag-abacus/Asynchronous-FIFO.git
+    cd Asynchronous-FIFO
     ```
 
 2. Run the simulation using your preferred Verilog simulator. For example, using Icarus Verilog:
     ```sh
-    iverilog -o pointer_fifo_tb pointer_fifo_tb.v
-    vvp pointer_fifo_tb
+    iverilog -o fifo_tb fifo_tb.v
+    vvp fifo_tb
     ```
 
 3. View the waveform using a VCD viewer, such as GTKWave:
     ```sh
-    gtkwave pointer_fifo_tb.vcd
+    gtkwave fifo_tb.vcd
     ```
 
 ## License
