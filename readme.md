@@ -5,12 +5,12 @@ This repository contains a Verilog implementation of a pointer-based FIFO (First
 
 ## Files
 
-- `pointer_fifo_tb.v`: The testbench for the FIFO module.
-- `pointer_fifo.v`: The FIFO module implementation.
+- `fifo_tb.v`: The testbench for the FIFO module.
+- `fifo.v`: The FIFO module implementation.
 
 ## Description
 
-### FIFO Module (`pointer_fifo.v`)
+### FIFO Module (`fifo.v`)
 
 The FIFO module is parameterized by depth and data width. It uses separate clocks for input and output operations, allowing asynchronous data transfer. The module includes flags to indicate when the FIFO is full (`fifo_f`) and empty (`fifo_e`).
 
@@ -31,7 +31,7 @@ The FIFO module is parameterized by depth and data width. It uses separate clock
 - `fifo_f`: Flag indicating that the FIFO is full.
 - `fifo_e`: Flag indicating that the FIFO is empty.
 
-### Testbench (`pointer_fifo_tb.v`)
+### Testbench (`fifo_tb.v`)
 
 The testbench verifies the functionality of the FIFO module by simulating various scenarios, including filling the FIFO, reading from the FIFO, interleaved write and read operations, overfilling, and over-reading the FIFO. The testbench generates waveforms for visual inspection using the `VCD` format.
 
