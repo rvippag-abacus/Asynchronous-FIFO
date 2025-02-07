@@ -19,16 +19,12 @@
 //
 // Dependencies:  None
 //
-// Revision:   0.01 - Design started
+// Revision:   1.01 
 //
-// Additional Comments: Example Comments
-//
-//   This design is universal and can be parallelized
+// Additional Comments: This design is universal and can be parallelized
 //
 //
 /////////////////////////////////////////////////////////////
-
-
 
 module fifo #(
     parameter DEPTH = 8,  // FIFO depth
